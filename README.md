@@ -1,0 +1,1 @@
+Simple dice game called knockout where use choose a number between 6 or nine. You roll the dice til the number on the two dice added together is the number you choose, then it's "knockout" and the game ends. 
