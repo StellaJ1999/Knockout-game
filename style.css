@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: monospace;
+    background-color: #0c331e;
+  }
+  
+  h1 {
+    color: rgb(103, 221, 154);
+  }
+  
+ p {
+    font-size: x-large;
+  }
+  
+  #game-container {
+    background-color: hsl(132, 44%, 63%);
+    padding: 60px;
+    border-radius: 60px;
+    display: inline-block;
+  }
+  
+  .dice {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 6px solid hsl(141, 58%, 5%);
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    user-select: none;
+  }
+  
+  #message {
+    font-weight: bold;
+    font-size: large;
+    color: red;
+  }

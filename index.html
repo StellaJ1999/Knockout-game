@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Knockout Spelet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Knockout spelet</h1>
+    <div id="game-container">
+      <p>Välj din knockoutsiffra 6, 7, 8, eller 9: <input type="number" id="knockout-number" min="6" max="9"></p>
+      <button id="start-button" onclick="startGame()">Starta Spelet</button>
+      <button id="roll-button" onclick="rollDice()" disabled>Kasta Tärningen</button>
+      <div id="dice-container">
+        <div class="dice" id="dice1">0</div>
+        <div class="dice" id="dice2">0</div>
+      </div>
+      <p>Current Score: <span id="score">0</span></p>
+      <p id="message"></p>
+      <button id="refresh-button" onclick="refreshGame()" disabled>Starta om spelet</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  </html>
